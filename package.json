@@ -21,5 +21,30 @@
     "genres": "cds serve test/genres.cds",
     "start": "cds-serve",
     "watch": "cds watch"
+  },
+  "cds": {
+    "log": {
+        "levels": {
+          "cds": "debug",
+          "cli": "debug",
+          "build": "debug",
+          "app": "debug",
+          "db": "debug",
+          "sql": "debug",
+          "hana": "debug",
+          "pool": "debug",
+          "messaging": "debug",
+          "remote": "debug",
+          "audit-log": "debug",
+          "odata": "debug",
+          "rest": "debug",
+          "auth": "debug",
+          "deploy": "debug",
+          "mtx": "debug",
+          "TENANT": "debug",
+          "serving": "debug"
+        }
+    }
   }
 }
+

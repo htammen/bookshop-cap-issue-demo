@@ -32,6 +32,6 @@ entity Genres : sap.common.CodeList {
 
 entity BooksFromEdgarAllenPoe as projection on Books {
   title, descr, author, 
-  $now as testField: Timestamp
-  //$now as testField
+  //$now as testField: Timestamp
+  $now as testField
 } where author.name = 'Edgar Allen Poe';
